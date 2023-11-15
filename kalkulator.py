@@ -15,7 +15,7 @@ def calculate():
         result = eval(display_data.get())
         display_data.set(result)
     except Exception as e:
-        display_data.set("Error")
+        display_data.set("Math_Error")
 
 # Utworzenie okna tkinter
 root = tk.Tk()
