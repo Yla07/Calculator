@@ -1,6 +1,8 @@
 import tkinter as tk  # zaimportowanie biblioteki tkinter 
 
 # Funkcja odpowiadajaca za sprawdzanie jak przycisk zostal wcisniety
+
+
 def button_click(value):
     current_text = display_data.get()
     display_data.set(current_text + str(value))
@@ -22,6 +24,11 @@ root = tk.Tk()
 root.title("Kalkulator")
 root.resizable(0, 0)
 root.config(background="black")
+
+def quit():
+    root.destroy()
+quit_button =  tk.Button(root, width=15, height=2, text = "Wyjdz", command=quit, background="black" , foreground="red")
+quit_button.grid(row=0, column=0)
 
 # Zmienna przechowojaca rownanie 
 display_data = tk.StringVar()
