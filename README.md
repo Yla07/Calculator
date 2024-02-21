@@ -1,2 +1,2 @@
-# KALKULATOR
-Prosty program w python tkinter kalkulatora z przyciskami liczb(0-9), operatorow (+,-,*,/,=), przyciskiem usuwania(AC) oraz przyciskiem "Wyjdz"
+# Calculator
+A simple python tkinter calculator program with numbers (0-9), operators (+,-,*,/,=), delete button (AC) and "Exit" button
